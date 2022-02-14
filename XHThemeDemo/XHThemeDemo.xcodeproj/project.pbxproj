@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F773E7B227BA38B400C229D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F773E7B127BA38B400C229D7 /* AppDelegate.m */; };
+		F773E7B527BA38B400C229D7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F773E7B427BA38B400C229D7 /* SceneDelegate.m */; };
+		F773E7B827BA38B400C229D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F773E7B727BA38B400C229D7 /* ViewController.m */; };
+		F773E7BB27BA38B400C229D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F773E7B927BA38B400C229D7 /* Main.storyboard */; };
+		F773E7BD27BA38B900C229D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F773E7BC27BA38B900C229D7 /* Assets.xcassets */; };
+		F773E7C027BA38B900C229D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F773E7BE27BA38B900C229D7 /* LaunchScreen.storyboard */; };
+		F773E7C327BA38B900C229D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F773E7C227BA38B900C229D7 /* main.m */; };
+		F773E82227BA38EF00C229D7 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F773E7CF27BA38EE00C229D7 /* HomeTableViewController.m */; };
+		F773E82327BA38EF00C229D7 /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F773E7D027BA38EE00C229D7 /* SettingTableViewController.m */; };
+		F773E82A27BA38EF00C229D7 /* ThemeInfo1.plist in Resources */ = {isa = PBXBuildFile; fileRef = F773E7DF27BA38EE00C229D7 /* ThemeInfo1.plist */; };
+		F773E82B27BA38EF00C229D7 /* ThemeColorKey.m in Sources */ = {isa = PBXBuildFile; fileRef = F773E7E027BA38EE00C229D7 /* ThemeColorKey.m */; };
+		F773E82C27BA38EF00C229D7 /* ThemeInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = F773E7E127BA38EE00C229D7 /* ThemeInfo.plist */; };
+		F773E82D27BA38EF00C229D7 /* XHThemeTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F773E7E827BA38EE00C229D7 /* XHThemeTool.a */; };
+		F773E82E27BA38EF00C229D7 /* XHThemeInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = F773E7EA27BA38EE00C229D7 /* XHThemeInfo.plist */; };
+		F773E84127BA390D00C229D7 /* ThemeSource in Resources */ = {isa = PBXBuildFile; fileRef = F773E84027BA390D00C229D7 /* ThemeSource */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F773E7AD27BA38B400C229D7 /* XHThemeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHThemeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F773E7B027BA38B400C229D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F773E7B127BA38B400C229D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F773E7B327BA38B400C229D7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F773E7B427BA38B400C229D7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F773E7B627BA38B400C229D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F773E7B727BA38B400C229D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F773E7BA27BA38B400C229D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F773E7BC27BA38B900C229D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F773E7BF27BA38B900C229D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F773E7C127BA38B900C229D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F773E7C227BA38B900C229D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F773E7CE27BA38EE00C229D7 /* SettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewController.h; sourceTree = "<group>"; };
+		F773E7CF27BA38EE00C229D7 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		F773E7D027BA38EE00C229D7 /* SettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewController.m; sourceTree = "<group>"; };
+		F773E7D127BA38EE00C229D7 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		F773E7DF27BA38EE00C229D7 /* ThemeInfo1.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ThemeInfo1.plist; sourceTree = "<group>"; };
+		F773E7E027BA38EE00C229D7 /* ThemeColorKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeColorKey.m; sourceTree = "<group>"; };
+		F773E7E127BA38EE00C229D7 /* ThemeInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ThemeInfo.plist; sourceTree = "<group>"; };
+		F773E7E227BA38EE00C229D7 /* ThemeColorKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeColorKey.h; sourceTree = "<group>"; };
+		F773E7E627BA38EE00C229D7 /* XHThemeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHThemeService.h; sourceTree = "<group>"; };
+		F773E7E827BA38EE00C229D7 /* XHThemeTool.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = XHThemeTool.a; sourceTree = "<group>"; };
+		F773E7EA27BA38EE00C229D7 /* XHThemeInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = XHThemeInfo.plist; sourceTree = "<group>"; };
+		F773E7EC27BA38EE00C229D7 /* XHThemeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHThemeHeader.h; sourceTree = "<group>"; };
+		F773E7EE27BA38EE00C229D7 /* UITabBar+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Theme.h"; sourceTree = "<group>"; };
+		F773E7EF27BA38EE00C229D7 /* UITabBarItem+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+Theme.h"; sourceTree = "<group>"; };
+		F773E7F027BA38EE00C229D7 /* XHThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHThemeManager.h; sourceTree = "<group>"; };
+		F773E7F127BA38EE00C229D7 /* UITextView+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Theme.h"; sourceTree = "<group>"; };
+		F773E7F227BA38EE00C229D7 /* UIButton+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Theme.h"; sourceTree = "<group>"; };
+		F773E7F327BA38EE00C229D7 /* UINavigationBar+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Theme.h"; sourceTree = "<group>"; };
+		F773E7F427BA38EE00C229D7 /* UIView+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Theme.h"; sourceTree = "<group>"; };
+		F773E7F527BA38EE00C229D7 /* NSObject+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Theme.h"; sourceTree = "<group>"; };
+		F773E7F627BA38EE00C229D7 /* UIImageView+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Theme.h"; sourceTree = "<group>"; };
+		F773E7F727BA38EE00C229D7 /* CAShapeLayer+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+Theme.h"; sourceTree = "<group>"; };
+		F773E7F827BA38EE00C229D7 /* CALayer+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Theme.h"; sourceTree = "<group>"; };
+		F773E7F927BA38EE00C229D7 /* UILabel+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Theme.h"; sourceTree = "<group>"; };
+		F773E7FA27BA38EE00C229D7 /* UITextField+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Theme.h"; sourceTree = "<group>"; };
+		F773E84027BA390D00C229D7 /* ThemeSource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ThemeSource; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F773E7AA27BA38B400C229D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F773E82D27BA38EF00C229D7 /* XHThemeTool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F773E7A427BA38B400C229D7 = {
+			isa = PBXGroup;
+			children = (
+				F773E7AF27BA38B400C229D7 /* XHThemeDemo */,
+				F773E7AE27BA38B400C229D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F773E7AE27BA38B400C229D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F773E7AD27BA38B400C229D7 /* XHThemeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F773E7AF27BA38B400C229D7 /* XHThemeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F773E83F27BA38F200C229D7 /* Applications */,
+				F773E7CA27BA38EE00C229D7 /* Demo */,
+				F773E7B927BA38B400C229D7 /* Main.storyboard */,
+				F773E7BC27BA38B900C229D7 /* Assets.xcassets */,
+				F773E7BE27BA38B900C229D7 /* LaunchScreen.storyboard */,
+				F773E7C127BA38B900C229D7 /* Info.plist */,
+				F773E7C227BA38B900C229D7 /* main.m */,
+			);
+			path = XHThemeDemo;
+			sourceTree = "<group>";
+		};
+		F773E7CA27BA38EE00C229D7 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F773E7CB27BA38EE00C229D7 /* Classes */,
+				F773E7D327BA38EE00C229D7 /* ThemeConfig */,
+				F773E7E327BA38EE00C229D7 /* Lib */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		F773E7CB27BA38EE00C229D7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F773E7CC27BA38EE00C229D7 /* Models */,
+				F773E7CD27BA38EE00C229D7 /* Controllers */,
+				F773E7D227BA38EE00C229D7 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F773E7CC27BA38EE00C229D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F773E7CD27BA38EE00C229D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F773E7D127BA38EE00C229D7 /* HomeTableViewController.h */,
+				F773E7CF27BA38EE00C229D7 /* HomeTableViewController.m */,
+				F773E7CE27BA38EE00C229D7 /* SettingTableViewController.h */,
+				F773E7D027BA38EE00C229D7 /* SettingTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F773E7D227BA38EE00C229D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F773E7D327BA38EE00C229D7 /* ThemeConfig */ = {
+			isa = PBXGroup;
+			children = (
+				F773E84027BA390D00C229D7 /* ThemeSource */,
+				F773E7DE27BA38EE00C229D7 /* Congif */,
+			);
+			path = ThemeConfig;
+			sourceTree = "<group>";
+		};
+		F773E7DE27BA38EE00C229D7 /* Congif */ = {
+			isa = PBXGroup;
+			children = (
+				F773E7E227BA38EE00C229D7 /* ThemeColorKey.h */,
+				F773E7E027BA38EE00C229D7 /* ThemeColorKey.m */,
+				F773E7E127BA38EE00C229D7 /* ThemeInfo.plist */,
+				F773E7DF27BA38EE00C229D7 /* ThemeInfo1.plist */,
+			);
+			path = Congif;
+			sourceTree = "<group>";
+		};
+		F773E7E327BA38EE00C229D7 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				F773E7E427BA38EE00C229D7 /* XHThemeTool */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		F773E7E427BA38EE00C229D7 /* XHThemeTool */ = {
+			isa = PBXGroup;
+			children = (
+				F773E7E527BA38EE00C229D7 /* Core */,
+				F773E7E727BA38EE00C229D7 /* Framework */,
+				F773E7E927BA38EE00C229D7 /* Config */,
+				F773E7EB27BA38EE00C229D7 /* Header */,
+				F773E7ED27BA38EE00C229D7 /* Base */,
+			);
+			path = XHThemeTool;
+			sourceTree = "<group>";
+		};
+		F773E7E527BA38EE00C229D7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F773E7E627BA38EE00C229D7 /* XHThemeService.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F773E7E727BA38EE00C229D7 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				F773E7E827BA38EE00C229D7 /* XHThemeTool.a */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		F773E7E927BA38EE00C229D7 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F773E7EA27BA38EE00C229D7 /* XHThemeInfo.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		F773E7EB27BA38EE00C229D7 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				F773E7EC27BA38EE00C229D7 /* XHThemeHeader.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		F773E7ED27BA38EE00C229D7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F773E7EE27BA38EE00C229D7 /* UITabBar+Theme.h */,
+				F773E7EF27BA38EE00C229D7 /* UITabBarItem+Theme.h */,
+				F773E7F027BA38EE00C229D7 /* XHThemeManager.h */,
+				F773E7F127BA38EE00C229D7 /* UITextView+Theme.h */,
+				F773E7F227BA38EE00C229D7 /* UIButton+Theme.h */,
+				F773E7F327BA38EE00C229D7 /* UINavigationBar+Theme.h */,
+				F773E7F427BA38EE00C229D7 /* UIView+Theme.h */,
+				F773E7F527BA38EE00C229D7 /* NSObject+Theme.h */,
+				F773E7F627BA38EE00C229D7 /* UIImageView+Theme.h */,
+				F773E7F727BA38EE00C229D7 /* CAShapeLayer+Theme.h */,
+				F773E7F827BA38EE00C229D7 /* CALayer+Theme.h */,
+				F773E7F927BA38EE00C229D7 /* UILabel+Theme.h */,
+				F773E7FA27BA38EE00C229D7 /* UITextField+Theme.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F773E83F27BA38F200C229D7 /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				F773E7B027BA38B400C229D7 /* AppDelegate.h */,
+				F773E7B127BA38B400C229D7 /* AppDelegate.m */,
+				F773E7B327BA38B400C229D7 /* SceneDelegate.h */,
+				F773E7B427BA38B400C229D7 /* SceneDelegate.m */,
+				F773E7B627BA38B400C229D7 /* ViewController.h */,
+				F773E7B727BA38B400C229D7 /* ViewController.m */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F773E7AC27BA38B400C229D7 /* XHThemeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F773E7C627BA38B900C229D7 /* Build configuration list for PBXNativeTarget "XHThemeDemo" */;
+			buildPhases = (
+				F773E7A927BA38B400C229D7 /* Sources */,
+				F773E7AA27BA38B400C229D7 /* Frameworks */,
+				F773E7AB27BA38B400C229D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHThemeDemo;
+			productName = XHThemeDemo;
+			productReference = F773E7AD27BA38B400C229D7 /* XHThemeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F773E7A527BA38B400C229D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F773E7AC27BA38B400C229D7 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = F773E7A827BA38B400C229D7 /* Build configuration list for PBXProject "XHThemeDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F773E7A427BA38B400C229D7;
+			productRefGroup = F773E7AE27BA38B400C229D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F773E7AC27BA38B400C229D7 /* XHThemeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F773E7AB27BA38B400C229D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F773E7C027BA38B900C229D7 /* LaunchScreen.storyboard in Resources */,
+				F773E82C27BA38EF00C229D7 /* ThemeInfo.plist in Resources */,
+				F773E82A27BA38EF00C229D7 /* ThemeInfo1.plist in Resources */,
+				F773E7BD27BA38B900C229D7 /* Assets.xcassets in Resources */,
+				F773E7BB27BA38B400C229D7 /* Main.storyboard in Resources */,
+				F773E82E27BA38EF00C229D7 /* XHThemeInfo.plist in Resources */,
+				F773E84127BA390D00C229D7 /* ThemeSource in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F773E7A927BA38B400C229D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F773E7B827BA38B400C229D7 /* ViewController.m in Sources */,
+				F773E82227BA38EF00C229D7 /* HomeTableViewController.m in Sources */,
+				F773E82B27BA38EF00C229D7 /* ThemeColorKey.m in Sources */,
+				F773E7B227BA38B400C229D7 /* AppDelegate.m in Sources */,
+				F773E7C327BA38B900C229D7 /* main.m in Sources */,
+				F773E82327BA38EF00C229D7 /* SettingTableViewController.m in Sources */,
+				F773E7B527BA38B400C229D7 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F773E7B927BA38B400C229D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F773E7BA27BA38B400C229D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F773E7BE27BA38B900C229D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F773E7BF27BA38B900C229D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F773E7C427BA38B900C229D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F773E7C527BA38B900C229D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F773E7C727BA38B900C229D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XHThemeDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XHThemeDemo/Demo/Lib/XHThemeTool/Framework",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = mryel.XHThemeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F773E7C827BA38B900C229D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XHThemeDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XHThemeDemo/Demo/Lib/XHThemeTool/Framework",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = mryel.XHThemeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F773E7A827BA38B400C229D7 /* Build configuration list for PBXProject "XHThemeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F773E7C427BA38B900C229D7 /* Debug */,
+				F773E7C527BA38B900C229D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F773E7C627BA38B900C229D7 /* Build configuration list for PBXNativeTarget "XHThemeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F773E7C727BA38B900C229D7 /* Debug */,
+				F773E7C827BA38B900C229D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F773E7A527BA38B400C229D7 /* Project object */;
+}
