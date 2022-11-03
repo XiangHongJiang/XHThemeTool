@@ -1,0 +1,6 @@
+framework module XHThemeTool {
+  umbrella header "XHThemeTool.h"
+
+  export *
+  module * { export * }
+}

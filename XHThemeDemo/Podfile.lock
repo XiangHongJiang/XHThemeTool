@@ -1,0 +1,20 @@
+PODS:
+  - SSZipArchive (2.4.3)
+  - XHThemeTool (0.0.6)
+
+DEPENDENCIES:
+  - SSZipArchive
+  - XHThemeTool
+
+SPEC REPOS:
+  trunk:
+    - SSZipArchive
+    - XHThemeTool
+
+SPEC CHECKSUMS:
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+  XHThemeTool: eb127ea04b194186ac3b147cc61cc901ae7df6f2
+
+PODFILE CHECKSUM: b10405853e8037c28459c791649ae7bae90bba60
+
+COCOAPODS: 1.11.2

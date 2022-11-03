@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>address</key>
+		<string>ThemeClass1/Skin0</string>
+		<key>type</key>
+		<string>0</string>
+		<key>name</key>
+		<string>C1-肤色0</string>
+		<key>colors</key>
+		<dict>
+			<key>AppMainColor_Exam</key>
+			<string>#2a5caa</string>
+			<key>Text_Color_Default_Exam</key>
+			<string>#f58220</string>
+			<key>LineColor_Exam</key>
+			<string>#d71345</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>ThemeClass1/Skin1</string>
+		<key>type</key>
+		<string>1</string>
+		<key>name</key>
+		<string>C1-肤色1</string>
+		<key>colors</key>
+		<dict>
+			<key>AppMainColor_Exam</key>
+			<string>#705628</string>
+			<key>Text_Color_Default_Exam</key>
+			<string>#90d7ec</string>
+			<key>LineColor_Exam</key>
+			<string>#da765b</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>ThemeClass1/Skin2</string>
+		<key>type</key>
+		<string>2</string>
+		<key>name</key>
+		<string>C1-肤色2</string>
+		<key>colors</key>
+		<dict>
+			<key>AppMainColor_Exam</key>
+			<string>#ffc20e</string>
+			<key>Text_Color_Default_Exam</key>
+			<string>#2b6447</string>
+			<key>LineColor_Exam</key>
+			<string>#543044</string>
+		</dict>
+	</dict>
+</array>
+</plist>
