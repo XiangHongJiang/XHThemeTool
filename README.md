@@ -4,7 +4,8 @@ Theme：换肤框架，自动换肤，主题换肤，图片换肤，背景色换
 使用方法：
 
 1、参照demo使用（皮肤（图片、颜色），需要自己配置）
-如遇报错：配置Target的Other Linker Flags：-ObjC
+pod 'XHThemeTool'
+或手动导入 XHThemeTool.framework
 
 
 1、使用示例
